@@ -1,0 +1,21 @@
+{
+  "name": "cabreramade.co",
+  "version": "0.1.0",
+  "description": "Cabrera Made",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-mustache": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "handlebars-layouts": "^3.1.4",
+    "js-yaml": "^3.10.0",
+    "markdown": "^0.5.0",
+    "smartquotes": "^2.3.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ashur/cabreramade.co.git"
+  }
+}
