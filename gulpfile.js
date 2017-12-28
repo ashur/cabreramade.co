@@ -64,4 +64,8 @@ gulp.task( 'templates', function()
 			.pipe( gulp.dest( paths.dist ) );
 	});
 });
+
+gulp.task( 'watch', function()
+{
+    gulp.watch( `${paths.src}/**/*.*`, ['templates'] );
 });
