@@ -110,6 +110,9 @@ gulp.task( 'templates', function()
 	});
 });
 
+gulp.task( 'build', ['sass','images','templates'] );
+gulp.task( 'build:optimized', ['sass:optimized','images','templates'] );
+
 gulp.task( 'watch', function()
 {
 	gulp.watch( [`${paths.data}/**/*`, `${paths.partials}/**/*`, `${paths.templates}/**/*`], ['templates'] );
