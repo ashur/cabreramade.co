@@ -1,0 +1,7 @@
+{{#each pdx.places}}
+				<div class="location{{#if neighborhoods}}{{#each neighborhoods}} {{ this }}{{/each}}{{/if}}" id="{{ slug }}">
+					<h3><a target="_blank" href="{{{ url }}}">{{#smartquotes}}{{{ name }}}{{/smartquotes}}</a></h3>
+					{{#markdown}}{{#smartquotes}}{{{ description }}}{{/smartquotes}}{{/markdown}}
+					<h4>{{ emoji }}</h4>
+				</div>
+{{/each}}

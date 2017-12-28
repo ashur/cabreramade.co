@@ -1,0 +1,38 @@
+{{#extend "base"}}
+	{{#content "title" mode="replace"}}Eats & Drinks in Portland{{/content}}
+
+	{{#content "stylesheets" mode="append"}}
+		{{#embed "stylesheet" href="/style/pdx.css"}}
+		{{/embed}}
+	{{/content}}
+
+	{{#content "scripts" mode="append"}}
+		{{#embed "typekit" kit="lsz1tsk"}}
+		{{/embed}}
+	{{/content}}
+
+	{{#content "body"}}
+
+	<header class="masthead">
+		<div class="contents"></div>
+	</header>
+
+	<main class="container">
+		<div class="contents">
+			<h2>{{{ pdx.meta.title }}}</h2>
+			<p class="preface">{{#smartquotes}}{{{ pdx.meta.preface }}}{{/smartquotes}}</p>
+
+			<section>
+				{{#embed "pdx/place"}}
+				{{/embed}}
+			</section>
+		</div>
+	</main>
+
+	<footer>
+		<div class="contents">
+			<p class="updated">{{ pdx.meta.updated }}</p>
+		</div>
+	</footer>
+	{{/content}}
+{{/extend}}

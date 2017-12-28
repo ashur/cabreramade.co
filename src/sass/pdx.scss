@@ -1,0 +1,200 @@
+@import 'lib/reset.min';
+@import 'partials/typography';
+
+$font-sans: "myriad-pro", Helvetica;
+$font-serif: "adobe-caslon-pro", Georgia, serif;
+
+$color-black: #333;
+$color-white: #fff;
+
+$padding-unit: 1.0rem;
+
+body {
+	background: $color-white;
+	color: $color-black;
+	font-family: $font-serif;
+}
+
+h2, h3, h4, p {
+	text-align: center;
+}
+
+h2 {
+	font-size: 3.0em;
+	font-weight: 600;
+	line-height: 1.0em;
+	margin: 0.354166666em 0;
+}
+
+h3 {
+	margin: 0 0 2.0em 0;
+
+	font-family: $font-sans;
+	font-size: 1.125em;
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+h4 {
+	margin: 1.0em 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+}
+
+p {
+	text-align: center;
+	font-size: 1.25em;
+	line-height: 1.45em;
+}
+
+a {
+	text-decoration: none;
+	color: $color-black;
+	font-weight: 600;
+}
+	h3 a {
+		display: inline-block;
+		margin: 1.0em 0 0.25em 0;
+		padding: 0.75em 1.75em;
+		border: solid $color-black 2px;
+		background: $color-white;
+		color: $color-black;
+	}
+		h3 a:hover, h3 a:visited {
+			background: $color-black;
+			color: white;
+		}
+
+/* Layout */
+header, main, footer {
+	padding: 3.0em;
+}
+
+header {
+	margin-bottom: 3.0em;
+}
+	header .contents {
+		padding-top: 1.0em;
+	}
+	header .contents, footer .contents {
+		border-top: double #666 3px;
+	}
+
+main {
+	padding-top: 1.0em;
+}
+
+section {
+	margin-top: 5.0em;
+}
+
+footer .contents {
+	padding-top: 2.0em;
+	padding-bottom: 1.0em;
+}
+
+.contents {
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+/* Preface */
+.preface {
+	padding-bottom: 2.5 * $padding-unit;
+	background: url( /img/pdx/umbrella.png ) no-repeat bottom center;
+	background-size: $padding-unit;
+}
+
+/* Location & Details */
+$padding-vertical-location: 3 * $padding-unit;
+
+.location {
+	margin: 0;
+	padding: $padding-vertical-location 0;
+	border-top: solid #ddd 1px;
+}
+
+.map {
+	max-width: 85%;
+	margin: 0 auto;
+	font-family: $font-sans;
+	font-size: 0.75em;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+	a {
+		border-bottom: solid $color-black 1px;
+		text-decoration: none;
+		line-height: 2.25em;
+	}
+
+	li + li {
+		padding-left: 0.5em;
+	}
+
+	li + li::before {
+		content: '\2022';
+		padding-right: 0.75em;
+	}
+
+	li:nth-of-type(3n)::after {
+		content: '\A';
+		white-space: pre;
+	}
+
+	li:nth-of-type(3n+1)::before {
+		content: none;
+		padding-left: 0;
+	}
+
+	/*
+	li:nth-of-type(3n) {
+		background: red;
+	}
+	li:nth-of-type(3n+1) {
+		background: pink;
+	}
+	li:nth-of-type(1) {
+		background: orange;
+	}
+	*/
+}
+
+/* Images */
+img {
+	max-width: 100%;
+	margin: 1.0em 0;
+}
+
+/* Footer */
+.updated {
+	color: #444;
+	font-size: 0.875em;
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		margin-bottom: 1.0em;
+		padding-top: 1.0em;
+	}
+	main, header {
+		padding-left: 1.0em;
+		padding-right: 1.0em;
+	}
+	footer {
+		padding: 1.0em;
+	}
+}
