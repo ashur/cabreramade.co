@@ -8,6 +8,7 @@ const layouts     = require( 'handlebars-layouts' );
 const helpers     = require( 'handlebars-helpers' );
 const path        = require( 'path' );
 const rename      = require( 'gulp-rename' );
+const s3          = require( 'gulp-s3' );
 const sass        = require( 'gulp-sass' );
 const sasslint    = require( 'gulp-sass-lint' );
 const set         = require( 'set-value' );
@@ -108,6 +109,20 @@ gulp.task( 'templates', function()
 			}))
 			.pipe( gulp.dest( paths.dist ) );
 	});
+});
+
+gulp.task( 'deploy', function()
+{
+	var AWS = {
+	  "key":    process.env.AWS_ACCESS_KEY_ID,
+	  "secret": process.env.AWS_SECRET_ACCESS_KEY,
+	  "bucket": "cabreramade.co",
+	  "region": "us-west-2"
+	};
+
+	return gulp
+		.src( `${paths.dist}/**` )
+		.pipe( s3( AWS ) );
 });
 
 gulp.task( 'build', ['sass','images','templates'] );
