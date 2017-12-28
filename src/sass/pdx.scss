@@ -4,7 +4,9 @@
 $font-sans: "myriad-pro", Helvetica;
 $font-serif: "adobe-caslon-pro", Georgia, serif;
 
-$color-black: #333;
+$color-black: #3b3458;
+$color-gray-1: #6c6782;
+$color-gray-2: #dfdde3;
 $color-white: #fff;
 
 $padding-unit: 1.0rem;
@@ -88,7 +90,7 @@ header {
 		padding-top: 1.0em;
 	}
 	header .contents, footer .contents {
-		border-top: double #666 3px;
+		border-top: double $color-gray-1 3px;
 	}
 
 main {
@@ -117,7 +119,7 @@ $padding-vertical-location: 3 * $padding-unit;
 .location {
 	margin: 0;
 	padding: $padding-vertical-location 0;
-	border-top: solid #ddd 1px;
+	border-top: solid $color-gray-2 1px;
 }
 
 .map {
