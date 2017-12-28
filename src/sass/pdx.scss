@@ -1,6 +1,3 @@
-@import 'lib/reset.min';
-@import 'partials/typography';
-
 $font-sans: "myriad-pro", Helvetica;
 $font-serif: "adobe-caslon-pro", Georgia, serif;
 
@@ -10,6 +7,15 @@ $color-gray-2: #dfdde3;
 $color-white: #fff;
 
 $padding-unit: 1.0rem;
+
+/* Reset */
+body, h1, h2, h3, h4, h5, p
+{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: normal;
+}
 
 body {
 	background: $color-white;
