@@ -1,0 +1,112 @@
+- name: Bamboo Sushi
+  url: http://bamboosushi.com
+  description: Portland isn't known for its sushi, but this is a great option if you're in the mood. Try the _Green Machine_ and the _California Sunset_.
+  emoji: 🍣
+  neighborhoods:
+      - ne
+      - se
+      - sw
+      - nw
+  slug: bamboo-sushi
+
+- name: Blue Star Donuts
+  url: http://www.bluestardonuts.com/
+  description: Show up early to grab a _hard apple cider fritter_ or a _buttermilk old-fashioned_. They go fast.
+  emoji: 🍩
+  slug: blue-star
+
+# - name: Boke Dokie
+#   url: http://bokedokie.com/
+#   description: TBD
+#   emoji: 🚚
+#   slug: boke-dokie
+
+# - name: Bollywood Theater
+#   url: http://www.bollywoodtheaterpdx.com
+#   description: TBD
+#   emoji: 🥘
+#   slug: bollywood-theater
+
+- name: Boxer Ramen
+  url: http://www.boxerramen.com/
+  description: A simple menu that really hits the spot. Order a round of _okonomiyaki tots_ and the _sesame greens_ to share.
+  emoji: 🍜
+  slug: boxer-ramen
+
+- name: Cascade Brewing
+  url: http://cascadebrewingbarrelhouse.com/
+  description: "If you don't like sour beers, this might not be the place for you: Cascade doesn't offer anything else."
+  emoji: 🍺
+  slug: cascade
+
+- name: Grassa
+  url: http://grassapdx.com/
+  description: Delicious handmade pasta, with an always-changing menu. Try the _crispy ￼￼pork ravioli_ or the _pork belly mac & cheese_ if you can.
+  emoji: 🍝
+  slug: grassa
+
+- name: Hale Pele
+  url: http://halepele.com/
+  description: The best damn stripmall tiki bar in all of NE Portland.
+  emoji: 🍹
+  slug: hale-pele
+
+# - name: HK Cafe
+#   url: http://www.hkcafeportland.com
+#   description: TBD
+#   emoji: 🥟
+#   slug: hk-cafe
+
+# - name: Ken's Artisan Pizza
+#   url: http://kensartisan.com/pizza
+#   description: TBD
+#   emoji: 🍕
+#   slug: kens
+
+- name: Nong's Khao Man Gai
+  url: http://khaomangai.com/
+  description: Nong's first cart serves only one dish—Thai chicken and jasmine rice—but the secret is in the sauce, so be sure to order extra.
+  emoji: 🚚
+  slug: nongs
+
+# - name: PDX Sliders
+#   url: http://pdxsliders.com
+#   description: TBD
+#   emoji: 🍔
+#   slug: pdx-sliders
+
+- name: Pok Pok
+  url: http://pokpokpdx.com/
+  description: Thai street food. Don’t leave Portland without trying the _fish sauce wings_, _papaya salad_ and _muu paa kham waan_.
+  emoji: 🥘
+  slug: pok-pok
+
+- name: Piazza Italia
+  url: http://www.piazzaportland.com/
+  description: Family-owned Italian comfort food. The lasagna will blow your hair back.
+  emoji: 🍝
+  slug: piazza-italia
+
+- name: Roost
+  url: http://www.roostpdx.com/
+  description: A great brunch spot without a long wait. Don’t miss the toast.
+  emoji: 🍳
+  slug: roost
+
+# - name: Spielman Bagels
+#   url: https://www.spielmanbagels.com
+#   description: TBD
+#   emoji: 🍳
+#   slug: spielman
+
+- name: Stumptown Coffee
+  url: https://stumptowncoffee.com/
+  description: An obvious choice, perhaps, but it is our favorite neighborhood JAB Holding Company subsidiary.
+  emoji: ☕️
+  slug: stumptown
+
+# - name: Taquería Nueve
+#   url: http://www.taquerianueve.com
+#   description: TBD
+#   emoji: 🌮
+#   slug: taqueria-nueve
