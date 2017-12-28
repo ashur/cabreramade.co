@@ -17,9 +17,17 @@ var paths = {
 	dist: "dist",
 
 	data: "src/data",
+	images: "src/img",
 	partials: "src/partials",
 	templates: "src/templates",
 };
+
+gulp.task( 'images', function()
+{
+	return gulp
+		.src( `${paths.images}/**/*` )
+		.pipe( gulp.dest( `${paths.dist}/img` ) );
+});
 
 gulp.task( 'templates', function()
 {
@@ -67,5 +75,6 @@ gulp.task( 'templates', function()
 
 gulp.task( 'watch', function()
 {
-    gulp.watch( `${paths.src}/**/*.*`, ['templates'] );
+	gulp.watch( [`${paths.data}/**/*`, `${paths.partials}/**/*`, `${paths.templates}/**/*`], ['templates'] );
+	gulp.watch( [`${paths.images}/**/*`], ['images'] );
 });
