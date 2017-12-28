@@ -15,17 +15,11 @@
   emoji: 🍩
   slug: blue-star
 
-# - name: Boke Dokie
-#   url: http://bokedokie.com/
-#   description: TBD
-#   emoji: 🚚
-#   slug: boke-dokie
-
-# - name: Bollywood Theater
-#   url: http://www.bollywoodtheaterpdx.com
-#   description: TBD
-#   emoji: 🥘
-#   slug: bollywood-theater
+- name: Bollywood Theater
+  url: http://www.bollywoodtheaterpdx.com
+  description: You can't go wrong with this Indian street food. The _kati roll_ and _pork vindaloo_ are out of this world. For extra credit grab a _G&T_, Emily's favorite in town.
+  emoji: 🥘
+  slug: bollywood-theater
 
 - name: Boxer Ramen
   url: http://www.boxerramen.com/
@@ -41,7 +35,7 @@
 
 - name: Grassa
   url: http://grassapdx.com/
-  description: Delicious handmade pasta, with an always-changing menu. Try the _crispy ￼￼pork ravioli_ or the _pork belly mac & cheese_ if you can.
+  description: Their menu rotates frequently, but the handmade pasta is always delicious. Try the _crispy ￼￼pork ravioli_ or the _pork belly mac & cheese_ if you can.
   emoji: 🍝
   slug: grassa
 
@@ -51,17 +45,11 @@
   emoji: 🍹
   slug: hale-pele
 
-# - name: HK Cafe
-#   url: http://www.hkcafeportland.com
-#   description: TBD
-#   emoji: 🥟
-#   slug: hk-cafe
-
-# - name: Ken's Artisan Pizza
-#   url: http://kensartisan.com/pizza
-#   description: TBD
-#   emoji: 🍕
-#   slug: kens
+- name: Ken's Artisan Pizza
+  url: http://kensartisan.com/pizza
+  description: Wood-fired pizza, arguably the best in Portland—or at least we think so. Get the _Handmade_, simple but phenomenal.
+  emoji: 🍕
+  slug: kens
 
 - name: Nong's Khao Man Gai
   url: http://khaomangai.com/
@@ -75,11 +63,11 @@
 #   emoji: 🍔
 #   slug: pdx-sliders
 
-- name: Pok Pok
-  url: http://pokpokpdx.com/
-  description: Thai street food. Don’t leave Portland without trying the _fish sauce wings_, _papaya salad_ and _muu paa kham waan_.
-  emoji: 🥘
-  slug: pok-pok
+# - name: Pok Pok
+#   url: http://pokpokpdx.com/
+#   description: Thai street food. Don’t leave Portland without trying the _fish sauce wings_, _papaya salad_ and _muu paa kham waan_.
+#   emoji: 🥘
+#   slug: pok-pok
 
 - name: Piazza Italia
   url: http://www.piazzaportland.com/
@@ -93,20 +81,14 @@
   emoji: 🍳
   slug: roost
 
-# - name: Spielman Bagels
-#   url: https://www.spielmanbagels.com
-#   description: TBD
-#   emoji: 🍳
-#   slug: spielman
-
 - name: Stumptown Coffee
   url: https://stumptowncoffee.com/
-  description: An obvious choice, perhaps, but it is our favorite neighborhood JAB Holding Company subsidiary.
+  description: An obvious choice, perhaps, but it _is_ our favorite neighborhood JAB Holding Company subsidiary.
   emoji: ☕️
   slug: stumptown
 
-# - name: Taquería Nueve
-#   url: http://www.taquerianueve.com
-#   description: TBD
-#   emoji: 🌮
-#   slug: taqueria-nueve
+- name: Taquería Nueve
+  url: http://www.taquerianueve.com
+  description: Our unofficial first stop after a new tattoo (but it's OK to go any time). The _crispy wild boar_ and _vegetal_ tacos are... well, you'll see.
+  emoji: 🌮
+  slug: taqueria-nueve
