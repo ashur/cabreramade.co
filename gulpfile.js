@@ -8,6 +8,8 @@ const layouts     = require( 'handlebars-layouts' );
 const helpers     = require( 'handlebars-helpers' );
 const path        = require( 'path' );
 const rename      = require( 'gulp-rename' );
+const sass        = require( 'gulp-sass' );
+const sasslint    = require( 'gulp-sass-lint' );
 const set         = require( 'set-value' );
 const smartquotes = require( 'smartquotes' );
 const yaml        = require( 'js-yaml' );
@@ -18,9 +20,44 @@ var paths = {
 
 	data: "src/data",
 	images: "src/img",
+	sass: "src/sass",
 	partials: "src/partials",
 	templates: "src/templates",
 };
+
+gulp.task( 'sass:build', function()
+{
+	return gulp
+		.src( `${paths.sass}/*.scss` )
+		.pipe( sass() )
+		.pipe( gulp.dest( `${paths.dist}/style` ) );
+});
+
+gulp.task( 'sass:build', function()
+{
+	return gulp
+		.src( `${paths.sass}/*.scss` )
+		.pipe( sass() )
+		.pipe( gulp.dest( `${paths.dist}/style` ) );
+});
+
+gulp.task( 'sass:optimized', function()
+{
+	return gulp
+		.src( `${paths.sass}/*.scss` )
+		.pipe( sass({
+			outputStyle: 'compressed'
+		}))
+		.pipe( gulp.dest( `${paths.dist}/style` ) );
+});
+
+gulp.task( 'sass:lint', function()
+{
+	return gulp
+		.src( `${paths.sass}/**/*.scss` )
+		.pipe( sasslint() )
+	    .pipe( sasslint.failOnError() );
+});
 
 gulp.task( 'images', function()
 {
@@ -77,4 +114,5 @@ gulp.task( 'watch', function()
 {
 	gulp.watch( [`${paths.data}/**/*`, `${paths.partials}/**/*`, `${paths.templates}/**/*`], ['templates'] );
 	gulp.watch( [`${paths.images}/**/*`], ['images'] );
+	gulp.watch( [`${paths.sass}/**/*`], ['sass:lint','sass:build'] );
 });
