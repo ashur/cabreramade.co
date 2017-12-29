@@ -1,0 +1,20 @@
+{{#extend "base"}}
+	{{#content "title" mode="prepend"}}Hello! 👋 {{/content}}
+
+	{{#content "stylesheets" mode="append"}}
+		{{#embed "stylesheet" href="/style/hello.css"}}
+		{{/embed}}
+		{{#embed "stylesheet" href="https://s3.amazonaws.com/icomoon.io/114779/Socicon/style.css?u8vidh"}}
+		{{/embed}}
+	{{/content}}
+
+	{{#content "body" mode="append"}}
+	<main>
+		<ul class="links">
+			<li class="github"><a href="https://github.com/ashur" title="GitHub">GitHub</a></li>
+			<li class="instagram"><a href="https://instagram.com/aaashur" title="Instagram">Instagram</a></li>
+			<li class="twitter"><a href="https://twitter.com/ashur" title="Twitter">Twitter</a></li>
+		</ul>
+	</main>
+	{{/content}}
+{{/extend}}

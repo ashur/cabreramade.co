@@ -1,0 +1,79 @@
+@import 'partials/colors';
+
+/* Local Color Definitions */
+$color-background: $color-white;
+$color-foreground: $color-black;
+
+/* Layout */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	display: inline-block;
+	overflow-x: hidden;
+	width: 1.0em;
+}
+
+.links {
+	padding: 0;
+
+	li {
+		display: inline-block;
+
+		& + li {
+			padding-left: 0.75em;
+		}
+	}
+}
+
+/* Colors */
+body {
+	background: $color-background;
+	color: $color-foreground;
+}
+
+a {
+	color: $color-foreground;
+
+	&:hover {
+		color: $color-black;
+	}
+}
+
+/* Text */
+a {
+	text-decoration: none;
+}
+
+.links {
+	font-size: 1.5em;
+	list-style-type: none;
+
+	a::before {
+		font-family: 'Socicon';
+	}
+}
+
+/* Icons */
+.github a::before {
+  content: "\e032";
+}
+.instagram a::before {
+  content: "\e044";
+}
+.twitter a::before {
+  content: "\e08d";
+}
