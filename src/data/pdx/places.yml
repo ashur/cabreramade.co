@@ -47,7 +47,7 @@
 
 - name: Ken's Artisan Pizza
   url: http://kensartisan.com/pizza
-  description: Wood-fired pizza, arguably the best in Portland—or at least we think so. Get the _Handmade_, simple but phenomenal.
+  description: Wood-fired pizza, arguably the best in Portland—or at least we think so. Get the _Handmade_, simple but exceptional.
   emoji: 🍕
   slug: kens
 
@@ -89,6 +89,6 @@
 
 - name: Taquería Nueve
   url: http://www.taquerianueve.com
-  description: Our unofficial first stop after a new tattoo (but it's OK to go any time). The _crispy wild boar_ and _vegetal_ tacos are... well, you'll see.
+  description: Our new favorite place to grab Mexican food. The _crispy wild boar carnitas_ and _vegetal_ tacos are Ashur's favorites.
   emoji: 🌮
   slug: taqueria-nueve
