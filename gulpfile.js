@@ -125,7 +125,7 @@ gulp.task( 'deploy', function()
 		.pipe( s3( AWS ) );
 });
 
-gulp.task( 'build', ['sass','images','templates'] );
+gulp.task( 'build', ['sass:build','images','templates'] );
 gulp.task( 'build:optimized', ['sass:optimized','images','templates'] );
 
 gulp.task( 'watch', function()
