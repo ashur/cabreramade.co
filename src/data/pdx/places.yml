@@ -63,17 +63,17 @@
 #   emoji: 🍔
 #   slug: pdx-sliders
 
-- name: The Portland Bottle Shop
-  url: http://www.pdxbottleshop.com/
-  description: Our go-to neighborhood joint, absolutely nowhere near our neighborhood. Get the Old Bay fries, and play a hand or two.
-  emoji: 🍻
-  slug: pdx-bottleshop
-
 - name: Piazza Italia
   url: http://www.piazzaportland.com/
   description: Family-owned Italian comfort food. The lasagna will blow your hair back.
   emoji: 🍝
   slug: piazza-italia
+
+- name: The Portland Bottle Shop
+  url: http://www.pdxbottleshop.com/
+  description: Our go-to neighborhood joint, absolutely nowhere near our neighborhood. Get the Old Bay fries, and play a hand or two.
+  emoji: 🍻
+  slug: pdx-bottleshop
 
 - name: Roost
   url: http://www.roostpdx.com/
