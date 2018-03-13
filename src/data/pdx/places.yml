@@ -27,11 +27,11 @@
   emoji: 🍜
   slug: boxer-ramen
 
-- name: Cascade Brewing
-  url: http://cascadebrewingbarrelhouse.com/
-  description: "If you don't like sour beers, this might not be the place for you: Cascade doesn't offer anything else."
-  emoji: 🍺
-  slug: cascade
+# - name: Cascade Brewing
+#   url: http://cascadebrewingbarrelhouse.com/
+#   description: "If you don't like sour beers, this might not be the place for you: Cascade doesn't offer anything else."
+#   emoji: 🍺
+#   slug: cascade
 
 - name: Grassa
   url: http://grassapdx.com/
@@ -63,11 +63,11 @@
 #   emoji: 🍔
 #   slug: pdx-sliders
 
-# - name: Pok Pok
-#   url: http://pokpokpdx.com/
-#   description: Thai street food. Don’t leave Portland without trying the _fish sauce wings_, _papaya salad_ and _muu paa kham waan_.
-#   emoji: 🥘
-#   slug: pok-pok
+- name: The Portland Bottle Shop
+  url: http://www.pdxbottleshop.com/
+  description: Our go-to neighborhood joint, absolutely nowhere near our neighborhood. Get the Old Bay fries, and play a hand or two.
+  emoji: 🍻
+  slug: pdx-bottleshop
 
 - name: Piazza Italia
   url: http://www.piazzaportland.com/
